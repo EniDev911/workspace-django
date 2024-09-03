@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="row my-5">
+    {% if mensaje %}
+        {{ mensaje }}
+    {% else %}
+    <h3 class="text-center text-warning">¡Juega!</h3>
+        {% for pregunta in preguntas %}
+            <div>{{ pregunta.pregunta }} - {{ pregunta.nombre }}</div>
+            <ul class="d-flex gap-4">
+                <li>{{ pregunta.resp_correcta }}</li>
+                <li>{{ pregunta.resp_incorrecta1 }}</li>
+                <li>{{ pregunta.resp_incorrecta2 }}</li>
+                <li>{{ pregunta.resp_incorrecta3 }}</li>
+            </ul>
+        {% endfor %}
+    {% endif %}
+</div>
+{% endblock %}

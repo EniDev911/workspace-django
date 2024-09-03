@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="row my-5">
+    <div class="col-12 col-md-8 mx-auto">
+        <a href="{% url 'crear_pregunta_url' %}" class="btn btn-warning">Nuevo</a>
+        <ul class="list-group my-4">
+            {% for pregunta in preguntas %}
+                <li class="list-group-item list-group-item-primary d-flex justify-content-between align-items-center">
+                    <span>{{ pregunta.pregunta }}</span>
+                    <form method='POST' action="{% url 'eliminar_pregunta_url' pregunta.id %}">
+                        {% csrf_token %}
+                        <button class="btn btn-danger" type="submit">&times;</button>
+                    </form>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endblock %}

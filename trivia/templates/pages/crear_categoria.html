@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="row my-5">
+    <div class="col-12 col-md-6 mx-auto">
+        <div class="card border secondary bg-transparent p-3 shadow-lg">
+            <div class="card-header border-secondary">
+                <h2 class="text-warning text-center">Nueva Categoría</h2>
+            </div>
+            <div class="card-body text-light">
+                <form method="POST">
+                    {% csrf_token %}
+                    <div class="mb-3">
+                        {{ form }}
+                    </div>
+                    <div class="d-flex">
+                        <button type="submit" class="btn btn-warning">Crear</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

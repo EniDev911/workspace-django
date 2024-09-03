@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="row my-5 mx-auto">
+    <div id="board">
+        <div class="game">
+            <h2 class="game-title">Trivia</h2>
+            <a class="btn-play" href="{% url 'juego_url' %}"><span>Jugar</span></a>
+        </div>
+        <button class="btn-volume">
+            <i class="fa-solid fa-volume-xmark"></i>
+        </button>
+    </div>
+</div>
+{% endblock %}
