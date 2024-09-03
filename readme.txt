@@ -4,6 +4,13 @@
 CREATE DATABASE triviador_chile;
 ```
 
+## INSTALAR DEPENDENCIAS:
+
+```sql
+pip install -r requirements.txt
+```
+
+
 ## CARGAR DATOS (opcional):
 
 - Incluye al superadmin con las siguientes credenciales:
