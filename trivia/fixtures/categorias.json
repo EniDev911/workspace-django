@@ -1,0 +1,30 @@
+[
+    {
+        "model": "trivia.categoria",
+        "pk": 1,
+        "fields": {
+            "nombre": "arte"
+        }
+    },
+    {
+        "model": "trivia.categoria",
+        "pk": 2,
+        "fields": {
+            "nombre": "geografía"
+        }
+    },
+    {
+        "model": "trivia.categoria",
+        "pk": 3,
+        "fields": {
+            "nombre": "cultura pop"
+        }
+    },
+    {
+        "model": "trivia.categoria",
+        "pk": 4,
+        "fields": {
+            "nombre": "gastronomía"
+        }
+    }
+]

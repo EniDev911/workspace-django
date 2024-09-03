@@ -1,0 +1,74 @@
+[
+    {
+        "model": "trivia.pregunta",
+        "pk": 1,
+        "fields": {
+            "pregunta": "¿Cómo se llamaba Istanbul antes de 1923?",
+            "resp_correcta": "constantinopla",
+            "resp_incorrecta1": "ishmir",
+            "resp_incorrecta2": "ataturk",           
+            "resp_incorrecta3": "alejandría",
+            "categoria_id": 2
+        }
+    },
+    {
+        "model": "trivia.pregunta",
+        "pk": 2,
+        "fields": {
+            "pregunta": "¿Cuál es el país más pequeño?",
+            "resp_correcta": "vaticano",
+            "resp_incorrecta1": "mónaco",
+            "resp_incorrecta2": "uruguay",           
+            "resp_incorrecta3": "andorra",
+            "categoria_id": 2
+        }
+    },
+    {
+        "model": "trivia.pregunta",
+        "pk": 3,
+        "fields": {
+            "pregunta": "¿Qué artista pintó el techo de la Capilla Sixtina?",
+            "resp_correcta": "miguel angel",
+            "resp_incorrecta1": "leonardo",
+            "resp_incorrecta2": "donatello",           
+            "resp_incorrecta3": "splinter",
+            "categoria_id": 1
+        }
+    },
+    {
+        "model": "trivia.pregunta",
+        "pk": 4,
+        "fields": {
+            "pregunta": "¿Cuál es la serie de libros más vendidos en el siglo XXI?",
+            "resp_correcta": "harry potter",
+            "resp_incorrecta1": "crepúsculo",
+            "resp_incorrecta2": "la divina comedia",
+            "resp_incorrecta3": "gone girls",
+            "categoria_id": 1
+        }
+    },
+    {
+        "model": "trivia.pregunta",
+        "pk": 5,
+        "fields": {
+            "pregunta": "¿De dónde son originarios Los Beatles?",
+            "resp_correcta": "liverpool",
+            "resp_incorrecta1": "york",
+            "resp_incorrecta2": "leads",
+            "resp_incorrecta3": "new york",
+            "categoria_id": 3
+        }
+    },
+    {
+        "model": "trivia.pregunta",
+        "pk": 6,
+        "fields": {
+            "pregunta": "¿Cuál es la canción más reproducida en Spotify?",
+            "resp_correcta": "the shape of you",
+            "resp_incorrecta1": "bones",
+            "resp_incorrecta2": "señorita",
+            "resp_incorrecta3": "riptide",
+            "categoria_id": 3
+        }
+    }
+]
